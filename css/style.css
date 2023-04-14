@@ -10,9 +10,12 @@
     background-color: rgb(44,62,80);
 }
 
-#jumbotron{
+#jumbotron,
+#about{
     background-color:rgb(26,188,156);
 }
+
+
 
 .contieni-immagine{
     max-height: 500px;
