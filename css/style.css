@@ -1,0 +1,33 @@
+/* DEBUG */
+
+
+#testa,
+#jumbotron{
+        color: white;
+}
+
+#testa{
+    background-color: rgb(44,62,80);
+}
+
+#jumbotron{
+    background-color:rgb(26,188,156);
+}
+
+.contieni-immagine{
+    max-height: 500px;
+    max-width: 500px;
+    object-fit: cover;
+    margin: auto;
+    padding: 50px ;
+}
+
+.contieni-immagine-portfolio{
+    height: 100px;
+    max-width: 100px;
+    object-fit: contain;
+    margin: auto;
+    padding: 50px ;
+}
+
+
