@@ -9,7 +9,7 @@ footer{
 }
 
 #testa{
-    padding: 15px 0;
+    padding: 25px 0;
 }
 #testa-bg{
     background-color: rgb(44,62,80);
@@ -19,7 +19,7 @@ footer{
     background-color:rgb(26,188,156);
 }
 
-
+#testa.bg-body-tertiary {background-color: rgb(44,62,80);}
 
 
 .contieni-immagine{

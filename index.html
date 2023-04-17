@@ -11,8 +11,26 @@
 <body>
     <header>
             <!-- header up -->
-            <section id="testa-bg">
-                <div class="container">
+            <section>
+                <nav id="testa" class="navbar  bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                    <div class="container">
+                      <a class="navbar-brand" href="#"><h2>START BOOTSTRAP</h2></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                          <a class="nav-link active" aria-current="page" href="#"><h3>PORTFOLIO</h3></a>
+                          <a class="nav-link active" href="#"><h3>ABOUT</h3></a>
+                          <a class="nav-link active" href="#"><h3>CONTACT</h3></a>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+
+
+
+                <!-- <div class="container">
                     <div id="testa" class="row justify-content-between ">
                         <div class="col">
                             START BOOTSTRAP
@@ -20,8 +38,11 @@
                         <div class="col text-end">
                             Hamburger
                         </div>
+                        <div class="col text-end">
+                            
+                        </div>
                     </div>
-                </div>
+                </div> -->
             </section>
             <!-- header down  -->
             <section id="about-bg">
@@ -132,65 +153,42 @@
             <section>
                 <div class="container" id="contact-me">
                     <!-- invece di id d-flex ?  -->
-                    <div class="row text-center" id="box-1">
+                    <div class="row text-center justify-content-center" id="box-1">
                         <div class="col-12">
                             <h2>CONTACT ME</h2>
                             <img src="" alt="immagine-stella">
                         </div>
                         <form>
-                            <div class="row mb-3">
-                                <label for="inputName3" class="col-12 col-form-label text-start">Name</label>
-                                <div class="col-12">
+                            <div class="row mb-3 offset-1">
+                                <label for="inputName3" class=" col-10 col-form-label text-start"><h3>Name</h3></label>
+                                <div class="col-10">
                                   <input type="text" class="form-control" id="inputName3">
                                 </div>
                             </div>
-                            <div class="row mb-3">
-                              <label for="inputEmail3" class="col-12 col-form-label text-start">Email Adress</label>
-                              <div class="col-12">
+                            <div class="row mb-3 offset-1">
+                              <label for="inputEmail3" class="col-10 col-form-label text-start"><h3>Email Adress</h3></label>
+                              <div class="col-10">
                                 <input type="email" class="form-control" id="inputEmail3">
                               </div>
                             </div>
-                            <div class="row mb-3">
-                                <label for="inputName3" class="col-12 col-form-label text-start">Phone Number</label>
-                                <div class="col-12">
+                            <div class="row mb-3 offset-1">
+                                <label for="inputName3" class="col-10 col-form-label text-start"><h3>Phone Number</h3></label>
+                                <div class="col-10">
                                   <input type="text" class="form-control" id="inputName3">
                                 </div>
                             </div>
-                            <div class="mb-3 text-start">
-                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                            <div class="row mb-3 text-start offset-1">
+                                <label for="exampleFormControlTextarea1" class="col-10 form-label"><h3>Message</h3></label>
+                                <div class="col-10">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                                </div>
                             </div>
 
-                           <div class="text-start">
-                                <button type="submit" class="btn btn-primary text-start">Send</button>
+                           <div class="text-start col-10 offset-1" style="padding: 0.375rem 0.75rem;">
+                                <button type="submit" class="btn btn-primary text-start ">Send</button>
                            </div>
-
-                          </form>
-                        
-                        
-                        
-                        
-                        
-                        
-                        <!-- 
-                        <div class="col-12 text-start">
-                            <h3>Name</h3>
-                            <hr>
-                            <h3>Email Address</h3>
-                            <hr>
-                            <h3>Phone Number</h3>
-                            <hr>
-                            <h3>Message</h3>
-                        </div>
+                        </form>
                     </div>
-
-                    <div class="row" id="box-2">
-                        <div class="col-12">
-                            <hr>
-                            <button>Send</button>
-                        </div>
-                    </div> -->
-                </div>
             </section>
         </div>
     </main>
