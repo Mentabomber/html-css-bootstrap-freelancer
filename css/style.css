@@ -18,8 +18,12 @@ footer{
 #about-bg{
     background-color:rgb(26,188,156);
 }
-
-#testa.bg-body-tertiary {background-color: rgb(44,62,80);}
+h2
+{font-size: 50px;}
+#testa h2
+{
+    font-size: 35px;
+}
 
 
 .contieni-immagine{
@@ -59,6 +63,17 @@ footer{
     background-color: rgb(44,62,80);
 }
 
+
+div.d-flex div{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+div.d-flex div a{
+    color: white;
+}
 #footer-up{
     background-color: rgb(58,84,109);
     display: flex;
