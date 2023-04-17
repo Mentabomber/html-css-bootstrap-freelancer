@@ -18,13 +18,42 @@ footer{
 #about-bg{
     background-color:rgb(26,188,156);
 }
-h2
-{font-size: 50px;}
-#testa h2
-{
-    font-size: 35px;
+.line{
+    width: 150px;
+    height: 5px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 0 20px;
 }
 
+#jumbotron i,
+#about i{
+    font-size: 30px;
+}
+.bg-dark-blue {
+    background-color: rgb(44,62,80);
+}
+h2
+{font-size: 50px;}
+#testa h2,
+#testa h4
+{
+    color: white;
+}
+#testa h2{
+    font-size: 35px;
+}
+#portfolio i,
+#contact-me i{
+    font-size: 30px;
+}
+.line-black{
+    width: 150px;
+    height: 5px;
+    background-color: black;
+    border-radius: 25px;
+    margin: 0 20px;
+}
 
 .contieni-immagine{
     max-height: 500px;
@@ -64,7 +93,7 @@ footer{
 }
 
 
-div.d-flex div{
+#footer-up div.d-flex div{
     width: 40px;
     height: 40px;
     border: 1px solid white;
@@ -73,6 +102,12 @@ div.d-flex div{
 
 div.d-flex div a{
     color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 #footer-up{
     background-color: rgb(58,84,109);
@@ -86,4 +121,6 @@ padding: 20px 0;
 text-align: center;
 
 }
+
+
 
