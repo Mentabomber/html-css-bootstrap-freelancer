@@ -2,22 +2,23 @@
 
 
 #testa,
-#jumbotron{
+#jumbotron,
+#about,
+footer{
         color: white;
 }
 
 #testa{
+    padding: 15px 0;
+}
+#testa-bg{
     background-color: rgb(44,62,80);
 }
-
-#jumbotron,
-#about{
+#jumbotron-bg,
+#about-bg{
     background-color:rgb(26,188,156);
 }
 
-#about{
-    margin-top: 20px;
-}
 
 
 
@@ -35,18 +36,39 @@
     object-fit: contain;
     margin: auto;
 }
+#about{
+    margin-top: 20px;
+    padding: 25px 10px;;
+}
+
+#contact-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#box-1{
+    padding-bottom: 50px;
+}
+
+#box-2{
+    padding-bottom: 25px;
+}
 
 footer{
     background-color: rgb(44,62,80);
-    color: white;
 }
 
 #footer-up{
     background-color: rgb(58,84,109);
     display: flex;
+    padding: 15px 0;
+    width: 100%;
 }
 
 #footer-down{
 padding: 20px 0;
 text-align: center;
+
 }
+
