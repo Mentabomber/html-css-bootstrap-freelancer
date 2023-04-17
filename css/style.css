@@ -33,6 +33,10 @@ footer{
 .bg-dark-blue {
     background-color: rgb(44,62,80);
 }
+#jumbotron span{
+    font-size: 20px;
+    font-weight: bold;
+}
 h2
 {font-size: 50px;}
 #testa h2,
@@ -74,6 +78,9 @@ h2
     padding: 25px 10px;;
 }
 
+#about button i{
+    font-size: 18px;
+}
 #contact-me{
     display: flex;
     flex-direction: column;
