@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        
+            <!-- header up -->
             <section id="testa-bg">
                 <div class="container">
                     <div id="testa" class="row justify-content-between ">
@@ -23,11 +23,12 @@
                     </div>
                 </div>
             </section>
+            <!-- header down  -->
             <section id="about-bg">
                 <div class="container">
-                    <div id="jumbotron" class="row text-center row-cols-1">         
-                        <div class="col">
-                            <div class="contieni-immagine"><img src="img/avatar.svg" alt=""></div></div>
+                    <div id="jumbotron" class="row text-center row-cols-1 justify-content-center">         
+                        <div class="col-4">
+                            <div><img class="img-fluid" src="img/avatar.svg" alt=""></div></div>
                             <div class="col"><h2>START BOOTSTRAP</h2></div>
                             <div class="col"><hr><img src="" alt="immagine-stella"><hr></div>
                             <div class="col">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
@@ -130,11 +131,48 @@
 
             <section>
                 <div class="container" id="contact-me">
+                    <!-- invece di id d-flex ?  -->
                     <div class="row text-center" id="box-1">
                         <div class="col-12">
                             <h2>CONTACT ME</h2>
                             <img src="" alt="immagine-stella">
                         </div>
+                        <form>
+                            <div class="row mb-3">
+                                <label for="inputName3" class="col-12 col-form-label text-start">Name</label>
+                                <div class="col-12">
+                                  <input type="text" class="form-control" id="inputName3">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                              <label for="inputEmail3" class="col-12 col-form-label text-start">Email Adress</label>
+                              <div class="col-12">
+                                <input type="email" class="form-control" id="inputEmail3">
+                              </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputName3" class="col-12 col-form-label text-start">Phone Number</label>
+                                <div class="col-12">
+                                  <input type="text" class="form-control" id="inputName3">
+                                </div>
+                            </div>
+                            <div class="mb-3 text-start">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                            </div>
+
+                           <div class="text-start">
+                                <button type="submit" class="btn btn-primary text-start">Send</button>
+                           </div>
+
+                          </form>
+                        
+                        
+                        
+                        
+                        
+                        
+                        <!-- 
                         <div class="col-12 text-start">
                             <h3>Name</h3>
                             <hr>
@@ -151,14 +189,13 @@
                             <hr>
                             <button>Send</button>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </section>
         </div>
     </main>
-
+    <!-- footer  -->
     <footer>
-
             <section id="footer-up" class="row justify-content-center text-center g-0">
                 <div class="col-12 col-md-3">
                     <h3>LOCATION</h3>
@@ -181,6 +218,5 @@
                 <p>Copyright C Your Website 2019</p>
             </section>
     </footer>
-
 </body>
 </html>
