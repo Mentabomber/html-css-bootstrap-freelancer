@@ -15,6 +15,10 @@
     background-color:rgb(26,188,156);
 }
 
+#about{
+    margin-top: 20px;
+}
+
 
 
 .contieni-immagine{
@@ -27,10 +31,22 @@
 
 .contieni-immagine-portfolio{
     height: 100px;
-    max-width: 100px;
+    width: 100px;
     object-fit: contain;
     margin: auto;
-    padding: 50px ;
 }
 
+footer{
+    background-color: rgb(44,62,80);
+    color: white;
+}
 
+#footer-up{
+    background-color: rgb(58,84,109);
+    display: flex;
+}
+
+#footer-down{
+padding: 20px 0;
+text-align: center;
+}
