@@ -125,6 +125,10 @@ div.d-flex div a{
     color: rgb(26,188,156);
     text-decoration: none;
 }
+.green-button{
+    background-color: rgb(26,188,156);
+    border: 0;
+}
 #footer-up{
     background-color: rgb(58,84,109);
     display: flex;
