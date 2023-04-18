@@ -75,7 +75,7 @@
             <!-- section portfolio -->
 
             <section>
-                <div id="portfolio" class="container">
+                <div id="portfolio" class="container py-5">
                     <div class="row text-center">
                         <div class="col py-5">
                             <h2>PORTFOLIO</h2>
@@ -139,8 +139,8 @@
 
             <section id="about-bg">
                 <div id="about" class="container">
-                    <div class="row row-cols-1 justify-content-center text-center">
-                        <div class="col py-5">
+                    <div class="row row-cols-1 justify-content-center text-center py-5 px-3">
+                        <div class="col py-3">
                             <h2>ABOUT</h2>
                         </div>
                         <div class="col-12 d-flex justify-content-center align-items-center">
@@ -157,7 +157,7 @@
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae rem dolore iste vero maxime fugit. Ipsam atque perspiciatis inventore esse mollitia reprehenderit quasi harum, nihil ullam, facere, quos quae rem.</p>
                         </div>
                         <div class="col">
-                            <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download" style="color: #ffffff;"></i> Download</button>
+                            <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i> Download</button>
                         </div>
                     </div>
                 </div>
@@ -168,8 +168,8 @@
 
             <section>
                 <div class="container" id="contact-me">
-                    <!-- invece di id d-flex ?  -->
-                    <div class="row text-center justify-content-center" id="box-1">
+                    <!-- BOOTSTRAP FORM  -->
+                    <div class="row text-center justify-content-center py-5" id="box-1">
                         <div class="col-12 py-5">
                             <h2>CONTACT ME</h2>
                             <div class="col-12 d-flex justify-content-center align-items-center">
@@ -180,27 +180,24 @@
                         </div>
                         <form>
                             <div class="row mb-3 offset-1">
-                                <label for="inputName3" class=" col-10 col-form-label text-start"><h3>Name</h3></label>
                                 <div class="col-10">
-                                  <input type="text" class="form-control form-control-lg border border-top-0 border-start-0 border-end-0" id="inputName3" placeholder="Name" >
+                                  <input type="text" class="form-control placeholder-contact-me border border-top-0 border-start-0 border-end-0" id="inputName3" placeholder="Name" >
                                 </div>
                             </div>
                             <div class="row mb-3 offset-1">
-                              <label for="inputEmail3" class="col-10 col-form-label text-start"><h3>Email Adress</h3></label>
+
                               <div class="col-10">
-                                <input type="email" class="form-control border border-top-0 border-start-0 border-end-0" id="inputEmail3">
+                                <input type="email" class="form-control placeholder-contact-me border border-top-0 border-start-0 border-end-0" id="inputEmail3" placeholder="Email Adress">
                               </div>
                             </div>
                             <div class="row mb-3 offset-1">
-                                <label for="inputName3" class="col-10 col-form-label text-start"><h3>Phone Number</h3></label>
                                 <div class="col-10">
-                                  <input type="text" class="form-control border border-top-0 border-start-0 border-end-0" id="inputName3">
+                                  <input type="text" class="form-control placeholder-contact-me border border-top-0 border-start-0 border-end-0" id="inputName3" placeholder="Phone Number">
                                 </div>
                             </div>
                             <div class="row mb-3 text-start offset-1">
-                                <label for="exampleFormControlTextarea1" class="col-10 form-label"><h3>Message</h3></label>
                                 <div class="col-10">
-                                    <textarea class="form-control border border-top-0 border-start-0 border-end-0" id="exampleFormControlTextarea1" rows="5"></textarea>
+                                    <textarea class="form-control placeholder-contact-me border border-top-0 border-start-0 border-end-0" id="exampleFormControlTextarea1" rows="5" placeholder="Message"></textarea>
                                 </div>
                             </div>
 
@@ -219,7 +216,7 @@
                     <h3>LOCATION</h3>
                     <p>2215 John Daniel Drive Clark, MO 54243</p>
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 py-4 py-md-0 col-md-3">
                     <h3>AROUND THE WEB</h3>
                     <div class="d-flex justify-content-center">
                         <div class="d-flex justify-content-center align-items-center mx-2">

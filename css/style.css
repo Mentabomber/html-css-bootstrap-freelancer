@@ -75,26 +75,31 @@ h2
 }
 #about{
     margin-top: 20px;
-    padding: 25px 10px;;
+    
 }
 
 #about button i{
     font-size: 18px;
 }
+
 #contact-me{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
-#box-1{
+/* #box-1{
     padding-bottom: 50px;
 }
 
 #box-2{
     padding-bottom: 25px;
+} */
+.placeholder-contact-me{
+    padding-left: 0;
+    padding-bottom: 20px;
+    font-size: 25px;
 }
-
 footer{
     background-color: rgb(44,62,80);
 }
